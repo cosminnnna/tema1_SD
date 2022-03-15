@@ -193,42 +193,42 @@ while z != t:
     start = time.time()
     radixSort(array2)
     end = time.time()
-    print(f"Timpul se sortare RadixSort este: {end - start}")
+    print(f"Timpul de sortare RadixSort este: {end - start}")
     # print(*array2)
 
     array2 = array1
     start = time.time()
     mergeSort(array2)
     end = time.time()
-    print(f"Timpul se sortare MergeSort este: {end - start}")
+    print(f"Timpul de sortare MergeSort este: {end - start}")
     # print(*array2)
 
     array2 = array1
     start = time.time()
     shellSort(array2, nr)
     end = time.time()
-    print(f"Timpul se sortare ShellSort este: {end - start}")
+    print(f"Timpul de sortare ShellSort este: {end - start}")
     # print(*array2)
 
     array2 = array1
     start = time.time()
     heapSort(array2)
     end = time.time()
-    print(f"Timpul se sortare HeapSort este: {end - start}")
+    print(f"Timpul de sortare HeapSort este: {end - start}")
     # print(*array2)
 
     # array2 = array1
     start = time.time()
     array2 = countingSort(array1)
     end = time.time()
-    print(f"Timpul se sortare CountingSort este: {end - start}")
+    print(f"Timpul de sortare CountingSort este: {end - start}")
     # print(*array2)
 
     array2 = array1
     start = time.time()
     sorted(array2, reverse=False)
     end = time.time()
-    print(f"Timpul se sortarea predefinita Python este: {end - start} \n")
+    print(f"Timpul de sortarea predefinita Python este: {end - start} \n")
 
     print("\n")
     z += 1
